@@ -1,0 +1,26 @@
+{
+  "name": "lama-hive/mailq-connector",
+  "description": "Up to date library to use MailQ by Quanti using the latest PHP versions",
+  "type": "library",
+  "license": "MIT license",
+  "autoload": {
+    "psr-4": {
+      "LamaHive\\MailqConnector\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jakub Hluchý",
+      "email": "hluchjak@outlook.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": ">=8.3"
+    }
+  },
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
